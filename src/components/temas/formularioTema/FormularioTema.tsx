@@ -5,7 +5,7 @@ import Tema from "../../../models/Tema";
 import { atualizar, buscar, cadastrar } from "../../../services/Service";
 import { RotatingLines } from "react-loader-spinner";
 
-function FormTema() {
+function FormularioTema() {
 
     const navigate = useNavigate();
 
@@ -135,4 +135,4 @@ function FormTema() {
     );
 }
 
-export default FormTema;
+export default FormularioTema;
